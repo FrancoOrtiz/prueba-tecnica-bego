@@ -1,0 +1,17 @@
+@import url(//db.onlinewebfonts.com/c/901497541657a2f24e42848bcf7fad52?family=Avenir+Heavy);
+/* COLORS */
+/* Yellow is #FFBE00 */
+/* Background darkblue is #040B11 */
+/* White for texts */
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: "Avenir Heavy";
+    background-color: #040B11;
+}
