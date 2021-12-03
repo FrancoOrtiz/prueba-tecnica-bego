@@ -1,6 +1,6 @@
 import React from 'react';
-import { StatsCard } from '../statsCard/StatsCard';
-import { StatsDate } from '../statsDate/StatsDate';
+import { StatsCard } from './../statsCard/StatsCard';
+import { StatsDate } from './../statsDate/StatsDate';
 import './stats.css';
 
 export const Stats = () => {
