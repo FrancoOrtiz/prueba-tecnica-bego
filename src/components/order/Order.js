@@ -11,7 +11,7 @@ export const Order = ({number, name, days}) => {
                 <span className="percentage">20%</span>
             </div>
             <div className="progress-bar"></div>
-            <span className="days">{days}</span>
+            <span className="days">{days} {days > 1 ? 'days left' :  'day left'}</span>
         </div>
     )
 }
