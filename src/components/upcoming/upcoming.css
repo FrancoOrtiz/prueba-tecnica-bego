@@ -1,0 +1,13 @@
+.upcoming-title {
+    color: white;
+    font-size: 14px;
+    margin-top: 32px;
+}
+
+.remaining {
+    color: gray;
+}
+
+.orders {
+    display: flex;
+}

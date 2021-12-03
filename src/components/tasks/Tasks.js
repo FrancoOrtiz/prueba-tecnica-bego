@@ -1,6 +1,7 @@
 import React from 'react';
 import { Create } from '../create/Create';
 import { FilterState } from '../filterState/FilterState';
+import { Upcoming } from '../upcoming/Upcoming';
 import './tasks.css';
 
 export const Tasks = () => {
@@ -8,6 +9,7 @@ export const Tasks = () => {
         <div className="tasks">
             <Create />   
             <FilterState />
+            <Upcoming />
         </div>
     )
 }
