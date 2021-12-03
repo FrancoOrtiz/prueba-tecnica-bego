@@ -1,10 +1,10 @@
 import React from 'react';
 import './order.css';
 
-export const Order = ({number, name, days}) => {
+export const Order = ({number="#890PO90", name, days}) => {
     return (
         <div className="order-card">
-            <p className="number-order">Order #890PO90</p>
+            <p className="number-order">Order {number}</p>
             <span className="name-order">{name}</span>
             <div className="progress-contain">
                 <span className="prog-text">Progress</span>

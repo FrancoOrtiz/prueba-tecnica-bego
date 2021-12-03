@@ -1,5 +1,5 @@
 import React from 'react';
-import { Order } from '../order/Order';
+import { Order } from '../Order';
 import './upcoming.css';
 
 export const Upcoming = () => {
