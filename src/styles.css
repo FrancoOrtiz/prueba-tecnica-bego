@@ -1,9 +1,8 @@
-@import url(//db.onlinewebfonts.com/c/901497541657a2f24e42848bcf7fad52?family=Avenir+Heavy);
+
 /* COLORS */
 /* Yellow is #FFBE00 */
 /* Background darkblue is #040B11 */
 /* White for texts */
-
 *,
 *::after,
 *::before {
@@ -12,7 +11,9 @@
 }
 
 body {
-    font-family: "Avenir Heavy", "sans-serif";
+    /* font-family: "Avenir Heavy", "sans-serif"; */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     background-color: #040B11;
     padding-bottom: 20px;
 }

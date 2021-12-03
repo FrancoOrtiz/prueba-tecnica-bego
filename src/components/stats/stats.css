@@ -1,14 +1,14 @@
 .stats-contain {
     width: 85%;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .stats-header {
     display: flex;
     justify-content: space-between;
     color:white;
-    font-size: 12px;
+    font-size: 10px;
     align-items:flex-end;
 }
 
@@ -16,6 +16,7 @@
     display: flex;
     background-color: #10161C;
     box-shadow: inset -2px -2px 4px 0 #040B11, inset 2px 2px 4px 0 #1C232A, 0 13px 9px 0 #000000;
+    border-radius: 8px;
 }
 
 .arrow {

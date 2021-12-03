@@ -4,8 +4,8 @@
 
 .upcoming-title {
     color: white;
-    font-size: 14px;
-    margin-top: 32px;
+    font-size: 12px;
+    margin-top: 36px;
 }
 
 .remaining {
@@ -21,7 +21,7 @@
 .scroll-container {
     width:fit-content;
     display: flex;
-    column-gap: 25px;
+    column-gap: 20px;
     justify-content: flex-start;
     margin-bottom:1rem;
 }

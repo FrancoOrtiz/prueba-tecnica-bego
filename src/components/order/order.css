@@ -1,5 +1,5 @@
 .order-card {
-    margin-top: 10px;
+    margin-top: 14px;
     height: 106px;
     border-radius: 8px;
     background-color: #10161C;
@@ -12,7 +12,7 @@
 
 .number-order {
     color: white;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .progress-contain {
