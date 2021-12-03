@@ -1,0 +1,22 @@
+.stats-contain {
+    margin-top:40px;
+}
+
+.stats-header {
+    display: flex;
+    justify-content: space-between;
+    color:white;
+    font-size: 12px;
+    align-items:flex-end;
+}
+
+.download-contain {
+    display: flex;
+    background-color: #10161C;
+    box-shadow: inset -2px -2px 4px 0 #040B11, inset 2px 2px 4px 0 #1C232A, 0 13px 9px 0 #000000;
+}
+
+.arrow {
+    border-left: 1px solid #404141;
+    padding: 0px 6px;
+}

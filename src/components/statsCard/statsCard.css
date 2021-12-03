@@ -1,0 +1,39 @@
+.stats-card {
+    background-color: #10161C;
+    box-shadow: inset -2px -2px 4px 0 #040B11, inset 2px 2px 4px 0 #1C232A, 0 13px 9px 0 #000000;
+    margin-top: 20px;
+}
+
+.card-cell {
+    display: flex;
+    color: white;
+    width: 100%;
+}
+
+.cell-text {
+    padding: 14px 0px;
+    color: 10px;
+}
+
+.cell-name {
+    color: #9298A0;
+}
+
+.img-contain {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+}
+
+.b-top {
+    border-top: 1px solid rgb(39, 39, 39);
+}
+
+.b-right {
+    border-right: 1px solid rgb(39, 39, 39);
+}
