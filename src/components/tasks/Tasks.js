@@ -4,11 +4,10 @@ import { FilterState } from '../filterState/FilterState';
 import { Footer } from '../footer/Footer';
 import { Stats } from '../stats/Stats';
 import { Upcoming } from '../upcoming/Upcoming';
-import './tasks.css';
 
 export const Tasks = () => {
     return (
-        <div className="tasks">
+        <div>
             <Create />   
             <FilterState />
             <Upcoming />

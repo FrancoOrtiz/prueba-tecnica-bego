@@ -1,3 +1,7 @@
+.upcoming-box{
+    margin-left: 7.5%;
+}
+
 .upcoming-title {
     color: white;
     font-size: 14px;
@@ -10,5 +14,14 @@
 }
 
 .orders {
+    max-width:100vw;
+    overflow-y:auto;
+}
+
+.scroll-container {
+    width:fit-content;
     display: flex;
+    column-gap: 25px;
+    justify-content: flex-start;
+    margin-bottom:1rem;
 }
