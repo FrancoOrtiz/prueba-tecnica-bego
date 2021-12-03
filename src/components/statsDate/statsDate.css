@@ -1,0 +1,91 @@
+.stats-date {
+    margin-top: 40px;
+    background-color: #10161C;
+    color: white;
+    box-shadow: inset -2px -2px 4px 0 #040B11, inset 2px 2px 4px 0 #1C232A, 0 13px 9px 0 #000000;
+}
+
+.date-header {
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+.active-header {
+    color: #FFBE00;
+    position: relative;
+}
+
+.active-header::after {
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 2px;
+    background-color: #FFBE00;
+    bottom: -2px;
+    left: 0px;
+}
+
+.amount-contain {
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+}
+
+.wave-contain {
+    width: 100%;
+    margin-top: 10px;
+    height: 140px;
+}
+
+.wave {
+    height: 100%;
+    width: 100%;
+}
+
+.amount {
+    font-size: 45px;
+    position: relative;
+}
+
+.amount::after {
+    content: "$";
+    position: absolute;
+    left: -22px;
+    top: 2px;
+    font-size: 22px;
+}
+
+.date-footer {
+    display: flex;
+    justify-content: space-around;
+    color: #9298A0;
+    padding-bottom: 20px;
+}
+
+.active {
+    color: white;
+    position: relative;
+}
+
+.active::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+    left: calc(50% - 4px);
+    top: -138px;
+}
+
+.active::before {
+    content: "";
+    position: absolute;
+    height: 126px;
+    width: 1px;
+    background-color: #414242;
+    top: -122px;
+    left: calc(50% - 0.5px);
+}

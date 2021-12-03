@@ -1,5 +1,6 @@
 import React from 'react';
 import { StatsCard } from '../statsCard/StatsCard';
+import { StatsDate } from '../statsDate/StatsDate';
 import './stats.css';
 
 export const Stats = () => {
@@ -13,6 +14,7 @@ export const Stats = () => {
                 </div>
             </div>
             <StatsCard total={50} completed={15} inProgress={10} delayed={2}/>
+            <StatsDate amount="13,543"/>
         </div>
     )
 }
