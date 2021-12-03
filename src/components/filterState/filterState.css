@@ -1,9 +1,15 @@
 .filter-state {
     display: flex;
-    margin-top: 20px;
     font-size: 14px;
     justify-content: space-between;
     color: white;
+    width: 85%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.filter-state p {
+    cursor: pointer;
 }
 
 .all {

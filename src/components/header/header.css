@@ -6,6 +6,10 @@
     margin-top: 80px;
 }
 
+.header img {
+    cursor: pointer;
+}
+
 .title {
     color: white;
     font-size: 18px;

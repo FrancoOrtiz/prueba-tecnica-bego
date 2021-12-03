@@ -1,6 +1,7 @@
 .stats-card {
     background-color: #10161C;
     box-shadow: inset -2px -2px 4px 0 #040B11, inset 2px 2px 4px 0 #1C232A, 0 13px 9px 0 #000000;
+    border-radius: 8px;
     margin-top: 20px;
 }
 
