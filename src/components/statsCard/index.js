@@ -1,9 +1,6 @@
 import React from 'react';
 import './statsCard.css';
-import menu from '../../assets/statsCard/menu.svg';
-import checked from '../../assets/statsCard/checked.svg';
-import flash from '../../assets/statsCard/flash.svg';
-import clock from '../../assets/statsCard/clock.svg';
+
 
 export const StatsCard = ({total, completed, inProgress, delayed}) => {
     return (
@@ -11,7 +8,7 @@ export const StatsCard = ({total, completed, inProgress, delayed}) => {
             <div className="row">
                 <div className="card-cell b-right">
                     <div className="img-contain">
-                        <img className="cell-img" src={menu} alt="menu" />
+                        <img className="cell-img" src='./assets/statsCard/menu.svg' alt="menu" />
                     </div>
                     <div className="cell-text">
                         <p>{total}</p>
@@ -20,7 +17,7 @@ export const StatsCard = ({total, completed, inProgress, delayed}) => {
                 </div>
                 <div className="card-cell">
                     <div className="img-contain">
-                        <img className="cell-img" src={checked} alt="menu" />
+                        <img className="cell-img" src='./assets/statsCard/checked.svg' alt="menu" />
                     </div>
                     <div className="cell-text">
                         <p>{completed}</p>
@@ -31,7 +28,7 @@ export const StatsCard = ({total, completed, inProgress, delayed}) => {
             <div className="row">
                 <div className="card-cell b-right b-top">
                     <div className="img-contain">
-                        <img className="cell-img" src={flash} alt="menu" />
+                        <img className="cell-img" src='./assets/statsCard/flash.svg' alt="menu" />
                     </div>
                     <div className="cell-text">
                         <p>{inProgress}</p>
@@ -40,7 +37,7 @@ export const StatsCard = ({total, completed, inProgress, delayed}) => {
                 </div>
                 <div className="card-cell b-top">
                     <div className="img-contain">
-                        <img className="cell-img" src={clock} alt="menu" />
+                        <img className="cell-img" src='./assets/statsCard/clock.svg' alt="menu" />
                     </div>
                     <div className="cell-text">
                         <p>{delayed}</p>

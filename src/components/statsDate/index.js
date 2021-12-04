@@ -1,6 +1,5 @@
 import React from 'react'
 import './statsDate.css';
-import wave from '../../assets/statsDate/wave.png';
 
 export const StatsDate = ({amount}) => {
     return (
@@ -14,7 +13,7 @@ export const StatsDate = ({amount}) => {
             <div className="amount-contain">
                 <span className="amount">{amount}</span>
                 <div className="wave-contain">
-                    <img className="wave" src={wave} alt="wave" />
+                    <img className="wave" src='./assets/statsDate/wave.png' alt="wave" />
                 </div>
             </div>
             <div className="date-footer">
